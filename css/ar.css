@@ -1,0 +1,25 @@
+body.home-body {
+  direction: rtl;
+  text-align: center;
+}
+
+.horizontal-sections {
+  direction: ltr;
+  text-align: right;
+}
+
+.footer__label,
+.footer__link,
+.footer__item,
+.mrv__info,
+.app--home-title,
+.app--home-text,
+.work-title {
+  text-align: right;
+}
+
+@media (max-width: 414px) {
+  .mrv__info {
+    text-align: center;
+  }
+}
